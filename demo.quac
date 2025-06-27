@@ -1,0 +1,5 @@
+movl r1, 0x3
+ldr r1, [r0]
+ldr r3, [r1]
+NOP
+cmp r6, pc
